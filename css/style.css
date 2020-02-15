@@ -222,4 +222,9 @@ header{
   }
 }
 
-
+@media screen and (prefers-reduced-motion: reduce) {
+  #logo {
+    -webkit-animation: none;
+    animation: none;
+  }
+}
